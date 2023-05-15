@@ -28,6 +28,11 @@ project "Tracy"
     cppdialect "C++17"
     staticruntime "Off"
 
+		defines
+		{
+			"NOMINMAX"
+		}
+
   filter "configurations:Debug"
     runtime "Debug"
     symbols "On"
